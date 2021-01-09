@@ -1,3 +1,11 @@
+#Experience
+  Created an APK file only using HTML CSS JS.
+  It gave best experience
+
+#Learnt
+  Read docs before jumping to next technology 🤦‍
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
