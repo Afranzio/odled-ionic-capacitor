@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  overflow-x: hidden;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+  background-color:#ffffff;
+}
+
+.navbar{
+  background-color: #ffffff;
+}
+
+.navbar-brand{
+  font-weight: 800;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.login_main{
+  width: 50%;
+  left: 0;
+	right: 0;
+  margin: auto;
+  padding: 1.5em;
+  border: 2px solid black;
+  margin-top: 10%;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #F3F3F3;
+}
+
+.login_main h3{
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+.login_main form{
+  left: 0;
+  font-family: 'Fira Sans', sans-serif;
+	right: 0;
+  margin: auto;
+  width: 60%;
+}
+
+.login_main .label{
+  font-size: 1.3em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+}
+
+.table{
+  font-family: 'Fira Sans', sans-serif;
+  overflow: hidden;
+}
+
+/* Layouter */
+
+.grid img, .grid video, .grid embed{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.grid:hover{
+  cursor: pointer;
+}
+
+embed, .grid{
+  overflow: hidden;
+}
+
+.ffmain{
+  cursor: none;
+}
+
+/* Layout Text */
+.text_div, .text{
+  text-align: center;
+}
+
+.text_div:hover, .grid:hover{
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.table{
+  font-size: 10vw;
+}
+
+@media only screen and (max-width: 1366px) {
+  *{
+    font-size: calc(5px + 1.5vmin);
+  }
+}
