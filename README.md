@@ -1,8 +1,8 @@
-#Experience
+# Experience
   Created an APK file only using HTML CSS JS.
   It gave best experience
 
-#Learnt
+# Learnt
   Read docs before jumping to next technology 🤦‍
 
 
