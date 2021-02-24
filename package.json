@@ -18,11 +18,13 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-html-parser": "^2.0.2",
     "react-ratio": "^0.1.5",
     "react-rnd": "^10.2.4",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-textfit": "^1.1.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -31,6 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "android": "npx cap add android",
+    "update-android": "npx cap update android",
     "ios": "npx cap add ios",
     "electron": "npx cap add electron",
     "run-avd": "npx cap open android"

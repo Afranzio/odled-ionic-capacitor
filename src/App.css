@@ -1,99 +1,313 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
+input,
+Button,
+label,
+.forgotPassword,
+.forgot-form,
+.fontHandle {
+    font-size: calc(6px + 1vmin);
+    font-family: 'Raleway', sans-serif;
 }
 
-.App {
-  overflow-x: hidden;
-  justify-content: center;
-  align-self: center;
-  min-height: 100vh;
-  background-color:#ffffff;
+.flex {
+    display: flex;
 }
 
-.navbar{
-  background-color: #ffffff;
+.homeButton{
+    font-size: 1em;
 }
 
-.navbar-brand{
-  font-weight: 800;
-  font-family: 'Fira Sans', sans-serif;
+.sideButton{
+    font-size: 0.7em;
 }
 
-.login_main{
-  width: 50%;
-  left: 0;
-	right: 0;
-  margin: auto;
-  padding: 1.5em;
-  border: 2px solid black;
-  margin-top: 10%;
-  font-family: 'Fira Sans', sans-serif;
-  background-color: #F3F3F3;
+.Main-Logo {
+    font-size: calc(10px + 2vmin);
+    margin-top: 0.2em;
+    align-self: center;
+    color: white;
 }
 
-.login_main h3{
-  font-family: 'Fira Sans', sans-serif;
-  text-align: center;
+.Main-Logo:hover {
+    cursor: pointer;
 }
 
-.login_main form{
-  left: 0;
-  font-family: 'Fira Sans', sans-serif;
-	right: 0;
-  margin: auto;
-  width: 60%;
+.middle {
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.login_main .label{
-  font-size: 1.3em;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 600;
+.centerer {
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.table{
-  font-family: 'Fira Sans', sans-serif;
-  overflow: hidden;
+.auth-inner {
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+    color: black;
+    font-weight: 600;
 }
 
-/* Layouter */
-
-.grid img, .grid video, .grid embed{
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+.auth-inner h3 {
+    font-weight: 800;
 }
 
-.grid:hover{
-  cursor: pointer;
+.auth-inner h5 {
+    font-weight: 600;
 }
 
-embed, .grid{
-  overflow: hidden;
+.auth-inner-setting {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
 }
 
-.ffmain{
-  cursor: none;
+.auth-inner-setting form {
+    width: 40%;
+    margin: auto;
 }
 
-/* Layout Text */
-.text_div, .text{
-  text-align: center;
+.templatePreview {
+    border: 0px;
 }
 
-.text_div:hover, .grid:hover{
-  cursor: pointer;
-  border: 1px solid black;
+.templateRow {
+    margin: 1em;
 }
 
-.table{
-  font-size: 10vw;
+.templateImage {
+    width: 200px;
+    height: 200px;
+}
+
+.templatePreview div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+}
+
+form {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.path-wrapper Button {
+    margin-top: 40%;
+    margin: 0em 2em;
+}
+
+.leftMenu {
+    color: #F4F4F4;
+}
+
+
+/* SOF */
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.fixedDisplay {
+    margin: 0.1em 0em;
+    width: 100%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+}
+
+.centerer {
+    position: relative;
+    height: 100%;
+}
+
+.changeDisplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid img, .grid video, .grid .editorValue{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid .editorValue, .grid table{
+    width: 100%;
+    height: 100%;
+}
+
+/* Setting Up Table */
+
+table, tr, th{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    min-width: 1000px;
+}
+
+
+/* Style Button */
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    padding: 20px 10px;
+    border-radius: 50px;
+    font-size: 50px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
 }
 
 @media only screen and (max-width: 1366px) {
-  *{
-    font-size: calc(5px + 1.5vmin);
-  }
+    .fixedDisplay,
+    .centerer,
+    .changeDisplay,
+    .preview{
+        border: none;
+        box-shadow: none;
+    }
+
+    .homeButton{
+        font-size: 1em;
+    }
+
+    .sideButton{
+        font-size: 0.5em;
+    }
+
+    input,
+    Button,
+    .Label,
+    .forgotPassword,
+    .forgot-form,
+    .fontHandle {
+        font-size: calc(6px + 1vmin);
+        font-family: 'Raleway', sans-serif;
+    }
+    .auth-inner {
+        width: 45%;
+    }
+    .auth-inner h3 {
+        font-size: 1.5em;
+    }
+    .auth-inner input,
+    .auth-inner select,
+    .input-group-text,
+    .input-group-prepend,
+    .Label,
+    .auth-inner button {
+        font-size: 1em;
+    }
+    .auth-inner-setting input,
+    .auth-inner-setting select,
+    .input-group-prepend,
+    .auth-inner-setting button {
+        font-size: 1em;
+    }
+    Button,
+    input {
+        font-size: 10px;
+    }
+    form {
+        font-size: calc(5px + 1vmin);
+    }
+    .Main-Logo {
+        font-size: calc(10px + 2vmin);
+        margin-top: 0.5em;
+        color: white;
+    }
+    .imgLogo {
+        margin-top: 0.5em;
+        border-radius: 10px;
+        width: 75;
+        height: 35
+    }
+    .fixedDisplay {
+        margin: 0em;
+    }
+    .customButton {
+        margin-top: -1em;
+        font-size: 1em;
+    }
+    .templateModal {
+        width: 50%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    .templateRow {
+        margin: 0.5em;
+    }
+    .templateImage {
+        width: 125px;
+        height: 125px;
+    }
 }
